@@ -15,7 +15,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         txtDisplay = findViewById(R.id.txtDisplay)
 
-        // Number buttons
         findViewById<Button>(R.id.btn1).setOnClickListener { appendToDisplay("1") }
         findViewById<Button>(R.id.btn2).setOnClickListener { appendToDisplay("2") }
         findViewById<Button>(R.id.btn3).setOnClickListener { appendToDisplay("3") }
